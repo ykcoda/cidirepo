@@ -5,6 +5,7 @@ pipeline{
             steps{
                 echo "========executing A========"
                 sh "hostname"
+                sh "free -m"
             }
             
         }
