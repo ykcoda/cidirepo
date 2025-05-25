@@ -7,6 +7,7 @@ pipeline{
                 sh "hostname"
                 sh "free -m"
                 sh "hostname"
+                sh "welcome"
             }
             
         }
